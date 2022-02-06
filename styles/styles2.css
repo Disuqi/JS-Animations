@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    font-family: monospace;
+}
+
+header {
+    height: 100vh;
+}
+
+.handImage {
+    height: 400px;
+}
+
+#pushingHand {
+    transform: translate(-20%, 5%);
+}
+
+#secondPushingHand {
+    transform: rotateY(180deg);
+}
+
+.title {
+    font-size: 320px;
+}
+
+.titleAndHand {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.firstContainer {
+    width: 100vw;
+    transform: translateX(100%);
+}
+
+.secondContainer {
+    width: 100vw;
+    transform: translateX(-100%);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
